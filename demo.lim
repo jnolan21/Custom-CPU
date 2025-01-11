@@ -1,0 +1,17 @@
+/* I pledge my honor that I have abided by the Stevens honor system. Jennifer Alexander. Jack Nolan. */
+.text
+.global _start
+
+_start:
+    LDR X0 X1 X1
+    LDR X1 X0 X2
+    SUB X2 X1 X0
+    STR X2 X1 X1
+    ADD X3 X1 X1
+    STR X3 X3 X3
+ 
+
+
+.data
+    1
+    20
